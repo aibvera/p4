@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="funcs.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="header" id="header">
+        <div class="headerTitle">
+            <h2>Alejandro Bueno</h2>
+            <a href="https://www.linkedin.com/in/abuenovera/">LinkedIn</a>
+            <h4>alejandro.bueno.vera.97@gmail.com</h4>
+            <h4>+51 952 274 023</h4>
+        </div>
+        <div class="headerButtons">
+            <input type="button" value="About me" class="headerButton" onclick="moveTo('intro')">
+            <input type="button" value="Skills" class="headerButton" onclick="moveTo('skills')">
+            <input type="button" value="Projects" class="headerButton" onclick="moveTo('projects')">
+            <input type="button" value="Recommendations" class="headerButton" onclick="moveTo('recommendations')">
+        </div>
+    </div>
+
+    <!-- MAIN INTRO -->
+    <div class="intro" id="intro">
+        <img class="introImg" src="assets/3.jpg">
+        <div class="introText">
+            <h1>Hi, I'm Alejandro!</h1>
+            <p>Aquí va el texto. Debe hablar muy bien de mí, porque soy una persona sensacional, guapa y creativa, perra. Debe poder contraerse si la pantalla se achica, entre otras cosas.</p>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="skillsWrapper" id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <img src="assets/py.png" class="langIcon">
+                <h4>Python</h4>
+                <h4>3 years</h4>
+            </div>
+            <div class="skill">
+                <img src="assets/py.png" class="langIcon">
+                <h4>Python</h4>
+                <h4>2.5 years</h4>
+            </div>
+            <div class="skill">
+                <img src="assets/py.png" class="langIcon">
+                <h4>Python</h4>
+                <h4>3 years</h4>
+            </div>
+            <div class="skill">
+                <img src="assets/py.png" class="langIcon">
+                <h4>Python</h4>
+                <h4>2.5 years</h4>
+            </div>
+            <div class="skill">
+                <img src="assets/py.png" class="langIcon">
+                <h4>Python</h4>
+                <h4>3 years</h4>
+            </div>
+            <div class="skill">
+                <img src="assets/py.png" class="langIcon">
+                <h4>Python</h4>
+                <h4>2.5 years</h4>
+            </div>
+            <div class="skill">
+                <img src="assets/py.png" class="langIcon">
+                <h4>Python</h4>
+                <h4>2.5 years</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="skillsWrapper" id="projects">
+        <h2>Projects</h2>
+        <h4>Smoothing of mineral resources categories limits</h4>
+        <ul class="bullet"><li>This was an absolute awesome project because it involved many different specialists from all around the world, math and computing.</li></ul>
+        <h4>QAQC check dashboard and automation</h4>
+        <ul class="bullet"><li>This was an absolute awesome project because it involved many different specialists from all around the world, math and computing. I used Dash.</li></ul>
+    </div>
+
+    <!-- RECOMMENDATIONS -->
+    <div class="skillsWrapper" id="recommendations">
+        <h2>Recommendations</h2>
+        <div class="recomms" id="recomms">
+            <div class="recomm">
+                <p class="recommText">Este wn es uno de los tipos más cheveres con los que he trabajado. Lo quiero mucho y espero algún día ser como él.</p>
+                <p class="recommName">Alejando Bueno</p>
+            </div>
+        </div>
+    </div>
+    <div class="skillsWrapper flexit">
+        <div class="leave">
+            <h4>Leave a recommendation</h4>
+            <input type="text" class="inputName" id="name" placeholder="Name">
+            <input type="text" class="inputText" id="text" placeholder="Recommendation">
+            <div class="buttonWrapper">
+                <input type="button" class="submitButton" id="submit" value="Submit" onclick="addRecomm()">
+            </div>
+        </div>
+    </div>
+
+    <!-- GO TO TOP -->
+    <div class="skillsWrapper flexit">
+        <img src="assets/arrow.png" class="goTop" onclick="moveTo('header')">
+    </div>
+
+</body>
+</html>

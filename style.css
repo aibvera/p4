@@ -1,0 +1,188 @@
+
+/* TAGS GENERALES */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: #bbbbbb;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    background: #202020;
+    padding: 5px;
+}
+
+.headerTitle {
+    height: 100%;
+    width: 80%;
+    align-items: left;
+}
+
+.headerButtons {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.headerButton {
+    width: 130px;
+    background: inherit;
+    color: #bbbbbb;
+    border: 0px;
+    font-style: oblique;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.headerButton:hover {
+    color: #ffffff;
+}
+
+/* INTRO */
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #000000;
+    padding: 5px;
+}
+.introImg {
+    width: 300px;
+    border: solid 2px;
+    border-radius: 100%;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.introText {
+    width: 400px;
+}
+
+/* SKILLS */
+
+.skillsWrapper {
+    width: 100%;
+    padding: 5px;
+    background: #202020;
+    padding-top: 10px;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skill {
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: solid 1.5px;
+}
+.langIcon {
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* PROJECTS */
+
+.bullet {
+    margin-bottom: 30px;
+}
+
+/* RECOMMENDATIONS */
+
+.recomms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.recomm {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    border: solid 1.5px;
+    border-radius: 10px;
+}
+
+.recommText {
+    width: 100%;
+}
+
+.recommName {
+    font-style: italic;
+    width: 100%;
+}
+
+.flexit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leave {
+    width: 300px;
+}
+
+.inputName {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.inputText {
+    width: 100%;
+    height: 200px;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitButton {
+    margin-top: 10px;
+    width: 100px;
+    background: #202020;
+    color: white;
+    border: solid 1.5px white;
+    border-radius: 15px;
+}
+.submitButton:hover {
+    background: white;
+    color: black
+}
+
+/* GO TO TOP */
+
+.goTop {
+    height: 50px;
+    background: #202020;
+}
