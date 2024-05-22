@@ -17,5 +17,6 @@ function addRecomm() {
     newRecomm.appendChild(newText);
     newRecomm.appendChild(newName);
     document.getElementById("recomms").appendChild(newRecomm);
+    alert('Thanks for the recommendation!');
 
 }

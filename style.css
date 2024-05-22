@@ -32,13 +32,13 @@ h4 {
 
 .headerTitle {
     height: 100%;
-    width: 80%;
+    width: 60%;
     align-items: left;
 }
 
 .headerButtons {
     height: 100%;
-    width: 20%;
+    width: 40%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -55,6 +55,7 @@ h4 {
 }
 .headerButton:hover {
     color: #ffffff;
+    font-weight: bold;
 }
 
 /* INTRO */
