@@ -50,6 +50,7 @@ h4 {
     color: #bbbbbb;
     border: 0px;
     font-style: oblique;
+    text-decoration: underline;
     margin-top: 3px;
     margin-bottom: 3px;
 }
@@ -183,7 +184,15 @@ h4 {
 
 /* GO TO TOP */
 
+.goTop_wrapper {
+    width: 100%;
+    padding: 5px;
+    background: #202020;
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+}
+
 .goTop {
     height: 50px;
-    background: #202020;
 }
